@@ -1,0 +1,65 @@
+# ── Miscellaneous ────────────────────────────────────────────────────────────
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ── Flutter / Dart / Pub ─────────────────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Generated files (json_serializable, etc.)
+*.g.dart
+*.freezed.dart
+
+# ── Symbolication / Obfuscation ───────────────────────────────────────────────
+app.*.symbols
+app.*.map.json
+
+# ── Android ───────────────────────────────────────────────────────────────────
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+*.jks
+*.keystore
+
+# ── iOS / macOS ───────────────────────────────────────────────────────────────
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Pods/
+**/macos/.symlinks/
+*.xcworkspace/
+!*.xcodeproj/*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# ── IntelliJ / Android Studio ────────────────────────────────────────────────
+*.iml
+*.ipr
+*.iws
+.idea/
+!.idea/runConfigurations/
+
+# ── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+
+# ── Sensitive config ─────────────────────────────────────────────────────────
+google-services.json
+GoogleService-Info.plist
+**/secrets/
+.env
+.env.*
