@@ -1,7 +1,7 @@
 name: active_flutter_delivery_app
 description: "A new Flutter project."
 publish_to: 'none'
-version: 4.4.0+1
+version: 1.0.0+1
 environment:
   sdk: '>=3.7.0 <4.0.0'
 
@@ -26,6 +26,8 @@ dependencies:
   one_context: ^4.1.0
   package_info_plus: ^9.0.0
   flutter_lints: ^6.0.0
+  google_maps_flutter: ^2.1.1
+  route_transitions: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -33,13 +35,11 @@ dev_dependencies:
   build_runner: ^2.1.5
   json_serializable: ^6.1.0
   flutter_launcher_icons: ^0.14.1
-  google_maps_flutter: ^2.1.1
-  route_transitions: ^2.0.1
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/app_logo.png"
+  image_path: "assets/rawLogo.png"
 
 flutter:
   uses-material-design: true

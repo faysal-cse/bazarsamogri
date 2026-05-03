@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.activeitzone.delivery_app"
+    namespace = "com.bazarsamogri.delivery"
     compileSdk = 36
     ndkVersion = "28.0.13004108"
 
@@ -23,7 +23,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.activeitzone.delivery_app"
+        applicationId = "com.bazarsamogri.delivery"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
         versionCode = flutter.versionCode

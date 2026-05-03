@@ -2,9 +2,9 @@ var this_year = DateTime.now().year.toString();
 
 class AppConfig {
   static String copyright_text =
-      "@ ActiveItZone $this_year"; //this shows in the splash screen
+      "@ Bazar Samogri $this_year"; //this shows in the splash screen
   static String app_name =
-      "Active eCommerce Delivery App"; //this shows in the splash screen
+      "Bazar Samogri Delivery"; //this shows in the splash screen
 
   //Default language config
   static String default_language = "en";
@@ -12,14 +12,12 @@ class AppConfig {
   static bool app_language_rtl = false;
   //configure this
   static String system_key =
-      "your_system_key"; //enter your purchase code for the app from codecanyon
+      r"$2y$10$UiK9ttyZNveuRx1UJSbBROwixmmH59zt9j57B8Se2BrSq1v9Vn0Ne"; //enter your purchase code for the app from codecanyon
 
   //configure this
   static const bool HTTPS = true;
 
-
-
-  static const DOMAIN_PATH = "your_domain.com";  //enter your domain only without https://www.
+  static const DOMAIN_PATH = "bazarsamogri.com";  //enter your domain only without https://www.
    
 
   //do not configure these below

@@ -10,7 +10,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.active_ecommerce_cms_demo_app"
+    namespace = "com.bazarsamogri.app"
     compileSdk = 36
     ndkVersion = "28.0.13004108"
 
@@ -26,7 +26,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.activeitzone.activeecommercecmsdemoapp"
+        applicationId = "com.bazarsamogri.app"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
         versionCode = flutter.versionCode
