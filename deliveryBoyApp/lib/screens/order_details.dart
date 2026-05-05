@@ -769,13 +769,13 @@ class _OrderDetailsState extends State<OrderDetails> {
                     height: 40,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
-                      border: Border.all(color: Colors.amber, width: 2),
+                      border: Border.all(color: Colors.orange, width: 2),
 
                       //shape: BoxShape.rectangle,
                     ),
                     child: Icon(
                       Icons.local_shipping_outlined,
-                      color: Colors.amber,
+                      color: Colors.orange,
                       size: 24,
                     ),
                   ),

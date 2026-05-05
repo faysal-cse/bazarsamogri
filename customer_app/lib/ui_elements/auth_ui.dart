@@ -41,8 +41,8 @@ class AuthScreen {
                         children: [
                           Container(
                             padding: EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 12,
+                              horizontal: 2,
+                              vertical: 3,
                             ),
                             width: 72,
                             height: 72,
@@ -51,7 +51,7 @@ class AuthScreen {
                               borderRadius: BorderRadius.circular(8),
                             ),
                             child: Image.asset(
-                              'assets/app_logo.png',
+                              'assets/only_icon.png',
                             ),
                           ),
                         ],

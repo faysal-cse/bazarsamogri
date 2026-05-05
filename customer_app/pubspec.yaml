@@ -3,7 +3,7 @@ description: "A new Flutter project."
 
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: '>=3.10.0 <4.0.0'
@@ -98,7 +98,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/appLogo.jpeg"
+  image_path: "assets/appLogo.png"
   remove_alpha_ios: true
 
 flutter:

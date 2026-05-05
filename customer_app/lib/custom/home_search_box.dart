@@ -13,7 +13,7 @@ class HomeSearchBox extends StatelessWidget {
           width: 38,
           decoration: BoxDecoration(shape: BoxShape.circle),
           padding: EdgeInsets.all(0),
-          child: Center(child: Image.asset('assets/app_logo_circle.png')),
+          child: Center(child: Image.asset('assets/only_icon.png')),
         ),
         SizedBox(width: 10),
         Expanded(
